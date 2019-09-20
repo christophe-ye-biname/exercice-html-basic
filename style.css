@@ -1,0 +1,42 @@
+body {
+    /*background-image: url("#");
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    background-size: cover;
+    opacity: 0.001;*/
+    background-color: chocolate;
+}
+
+.info0 {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.infoassos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background-color: coral;
+}
+
+.association {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.info {
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+
+h1 {}
+
+header {
+    background-color: #CF781A;
+    border-radius: 5px;
+}
+
+menu {
+    display: inline-block;
+}
